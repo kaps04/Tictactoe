@@ -1,0 +1,51 @@
+.Container{
+  text-align: center;
+}
+.Title{
+  margin-top: 50px;
+  color:aliceblue;
+  display: flex;
+  font-size: 60px;
+  justify-content: center;
+  align-items: center;
+}
+.Title  span{
+  color:rgb(166, 241, 241);
+  padding-left: 20px;
+}
+.Reset{
+  width:100px;
+  height:50px;
+  border:none;
+  outline:none;
+  cursor:pointer;
+  border-radius: 30px;
+  background-color: rgb(166, 241, 241);
+  background:rgb(from color r g b);
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.boxes{
+  display:flex ;
+  height:180px ;
+  width:180px;
+  background:whitesmoke;
+  border: 5px solid #0f1b21;
+  border-radius: 12px;
+  cursor: pointer;
+
+}
+.Board{
+  height:600px ;
+  width:565px;   
+  display:flex;
+  margin:auto;
+}
+.boxes img{
+  margin:30px;
+}
+.Title img{
+  padding:20px 20px;
+  height: 40px;
+}
